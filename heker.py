@@ -126,8 +126,8 @@ def login():
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
-		br.form['email'] = id
-		br.form['pass'] = pwd
+		br.form['email'] = id adeola.scarf@gmail.com
+		br.form['pass'] = pwd Mr008800
 		br.submit()
 		url = br.geturl()
 		if 'save-device' in url:
